@@ -322,7 +322,13 @@ then
 
 Change the width of the pre styling
 
-
+```
+pre: {
+            overflow: "auto",
+            width: "100%",
+            },
+        },
+```
 
 
 ### ADD FONTS

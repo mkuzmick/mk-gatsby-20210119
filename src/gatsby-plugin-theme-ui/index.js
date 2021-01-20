@@ -41,7 +41,7 @@ export default merge(baseTheme, {
         // },
         pre: {
             overflow: "auto",
-            width: "calc(100% - 2em)",
+            width: "100%",
             },
         },
 })
