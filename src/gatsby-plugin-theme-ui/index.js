@@ -29,21 +29,19 @@ export default merge(baseTheme, {
         monospace: "IBM Plex Mono, monospace",
     },
     // fontSizes: [10, 14, 18, 24, 32, 48, 72, 96, 144],
-    // styles: {
-    //     h1: {
-    //       fontFamily: "heading",
-    //       fontWeight: "heading",
-    //       lineHeight: "heading",
-    //       marginTop: 0,
-    //       marginBottom: 3,
-    //     //   fontSize: 2,
-    //     //   color: "red"
-    //     },
-    //     a: {
-    //       color: "primary",
-    //       ":hover, :focus": {
-    //         color: "secondary",
-    //       },
-    //     },
-    //   },
+    styles: {
+        // h1: {
+        //     fontFamily: "heading",
+        //     fontWeight: "heading",
+        //     lineHeight: "heading",
+        //     marginTop: 0,
+        //     marginBottom: 3,
+        // //   fontSize: 2,
+        // //   color: "red"
+        // },
+        pre: {
+            overflow: "auto",
+            width: "100%",
+            },
+        },
 })
