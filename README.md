@@ -318,6 +318,13 @@ then
   })
   ```
 
+#### PRE STYLING
+
+Change the width of the pre styling
+
+
+
+
 ### ADD FONTS
 
 - npm install @fontsource/prompt

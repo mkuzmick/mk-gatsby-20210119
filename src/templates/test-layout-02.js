@@ -20,13 +20,15 @@ export default function PageTemplate({ data: { mdx } }) {
   return (
     <div
       style={{
-        padding: "1em"
+        padding: "1em",
+        width: "90%",
+        margin: "auto"
       }}
     >
       <Seo image={mdx.fields.mainImage} />
       <Styled.h1>{mdx.fields.title}</Styled.h1>
       <p>got your mdx right here</p>
-      <pre>{JSON.stringify(mdx, replacer, 4)}</pre>
+      <Styled.pre>{JSON.stringify(mdx, replacer, 4)}</Styled.pre>
       <p>but here's how it will actually look once parsed...</p>
       <MDXProvider components={shortcodes}>
         <MDXRenderer>{mdx.body}</MDXRenderer>

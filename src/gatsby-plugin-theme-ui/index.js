@@ -30,6 +30,10 @@ export default merge(baseTheme, {
     },
     // fontSizes: [10, 14, 18, 24, 32, 48, 72, 96, 144],
     styles: {
+        body: {
+            width: "90%",
+            margin: "auto"
+        },
         // h1: {
         //     fontFamily: "heading",
         //     fontWeight: "heading",
@@ -41,7 +45,7 @@ export default merge(baseTheme, {
         // },
         pre: {
             overflow: "auto",
-            width: "100%",
+            width: "calc(100% - 2em)",
             },
         },
 })
